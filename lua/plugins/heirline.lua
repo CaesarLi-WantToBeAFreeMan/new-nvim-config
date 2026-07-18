@@ -222,14 +222,14 @@ return{
                     FileIconName
                 },
 
-                --winbar UI
-                winbar = {},
-
-                --tab line UI
-                tabline = {},
-
-                --status column UI
-                statuscolumn = {}
+                -- --winbar UI
+                -- winbar = {},
+                --
+                -- --tab line UI
+                -- tabline = {},
+                --
+                -- --status column UI
+                -- statuscolumn = {}
             }
         end,
     }
