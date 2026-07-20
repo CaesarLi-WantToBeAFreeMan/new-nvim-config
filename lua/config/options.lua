@@ -75,7 +75,7 @@ opt.pumheight = 12 --limit popup menu height to 12 items
 opt.shortmess:append("c") --don't show completion messages in cmdline
 
 -- === timing ===
-opt.updatetime = 210 --faster CursorHold events (ms)
+opt.updatetime = 500 --faster CursorHold events (ms)
 opt.timeoutlen = 500 --mapped sequence wait time (ms)
 opt.ttimeoutlen = 10 --key code sequence wait time (mds
 opt.redrawtime = 1200 --max time for syntax highlighting per redraw (ms)
@@ -139,7 +139,7 @@ opt.termguicolors = true --enable true color support
 opt.cursorline = true --highlight current line
 opt.cursorcolumn = true --highlight current column
 opt.signcolumn = "yes" --always show sign column
-opt.colorcolumn = "120" --highlight column 120 as guide
+opt.colorcolumn = "80,120,180" --highlight column 120 as guide
 --opt.showmatch = true --briefly jump to matching bracket
                        --use treesitter to handle this
 opt.matchtime = 1 --how long to show matching bracket (s)
