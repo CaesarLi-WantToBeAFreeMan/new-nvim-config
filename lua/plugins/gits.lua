@@ -86,5 +86,25 @@ return{
                 mode = {"o", "x"}
             }
         }
+    },
+    --git interface
+    {
+        "NeogitOrg/neogit",
+        lazy = true,
+        cmd = "Neogit",
+        dependencies = {},
+        opts = {
+            commit_order = "date",--chronological commit order
+            init_branch_name = "main",
+            disable_line_numbers = false,--show line numbers
+            disable_relative_line_numbers = false,--show relative line numbers
+        },
+        keys = {
+            {
+                "<leader>ng",
+                ":Neogit<CR>",
+                desc = "show neogit UI"
+            }
+        }
     }
 }
